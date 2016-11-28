@@ -21,7 +21,6 @@ public class Test {
         if (file.isFile()) {
             return 1;
         }
-
         File[] files = file.listFiles();
         if (files != null) {
             for (File f : files) {
