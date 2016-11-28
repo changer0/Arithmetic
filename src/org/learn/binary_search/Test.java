@@ -18,11 +18,9 @@ public class Test {
 
     //已经排好序的数组
     public static int binarySearch(int[] nums, int key) {
-
         int start = 0;
         int end = nums.length - 1;
         int mid = -1;
-
         while (start <= end) {
             mid = (start + end) / 2;
             if (nums[mid] == key) {
@@ -35,4 +33,5 @@ public class Test {
         }
         return -1;
     }
+
 }
